@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header_help_container">
+            <div class="header_container">
+                <div class="img1">
+                    <img class="logo" src="./img/Rectangle 600.png" alt="Logo">
+                </div>
+                <div slass="header_menu">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a href="#" class="menu_link">готовые маршруты</a></li>
+                        <li class="menu_item"><a href="#" class="menu_link">о нас</a></li>
+                        <li class="menu_item"><a href="#" class="menu_link">партнеры</a></li>
+                        <li class="menu_item"><a href="#" class="menu_link">личный кабинет</a></li>
+                    </ul>
+                </div>
+                <div class="header_burger"><span></span></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="route">
+            <div class="route_container container">
+                <h1 class="route_title">Создайте свой уникальный маршрут!</h1>
+                <h3 class="route_sub_title">Критерии маршрута</h3>
+                <div class="route_content">
+                    <form action="/" class="action_form-group">
+                        <div class="select_city">
+                            <label for="choose_city" class="select_desc">Выбор города</label>
+                            <div class="select_header">
+                                <div class="current_city">
+                                    
+                                    Москва
+                                </div>
+                                <div class="select_icon"><span class="select_icon-arrow"></span></div>
+                            </div>
+                            <div class="select_body">
+                                <div class="select_item">Москва</div>
+                                <div class="select_item">Волгоград</div>
+                                <div class="select_item">Самара</div>
+                                <div class="select_item">Астрахань</div>
+                            </div>
+                        </div>
+                        <div class="select_city">
+                            <label for="choose_city" class="select_desc">Время на маршрут</label>
+                            <div class="select_header">
+                                <div class="current_city">
+                                    
+                                    Время
+                                </div>
+                                <div class="select_icon"><span class="select_icon-arrow"></span></div>
+                            </div>
+                            <div class="select_body">
+                                <div class="select_item">1</div>
+                                <div class="select_item">2</div>
+                                <div class="select_item">3</div>
+                                <div class="select_item">4</div>
+                            </div>
+                        </div>
+                        <div class="select_city">
+                            <label for="choose_city" class="select_desc">Финансы на маршрут</label>
+                            <div class="select_header">
+                                <div class="current_city">
+                                    
+                                    Деньги
+                                </div>
+                                <div class="select_icon"><span class="select_icon-arrow"></span></div>
+                            </div>
+                            <div class="select_body">
+                                <div class="select_item">1</div>
+                                <div class="select_item">2</div>
+                                <div class="select_item">3</div>
+                                <div class="select_item">4</div>
+                            </div>
+                        </div>
+                        <div class="select_city">
+                            <label for="choose_city" class="select_desc">Категории мест</label>
+                            <div class="select_header">
+                                <div class="current_city">
+                                    
+                                    Еда
+                                </div>
+                                <div class="select_icon"><span class="select_icon-arrow"></span></div>
+                            </div>
+                            <div class="select_body">
+                                <div class="select_item">Исторические места</div>
+                                <div class="select_item">Необычные места</div>
+                                <div class="select_item">Парки</div>
+                                <div class="select_item">Современные места</div>
+                            </div>
+                        </div>
+                        <div class="select_city">
+                            <label for="choose_city" class="select_desc">Планируете перекусить?</label>
+                            <div class="select_header">
+                                <div class="current_city">
+                                    
+                                    Да/Нет
+                                </div>
+                                <div class="select_icon"><span class="select_icon-arrow"></span></div>
+                            </div>
+                            <div class="select_body">
+                                <div class="select_item">Да</div>
+                                <div class="select_item">Нет</div>
+                            </div>
+                        </div>
+                        <div class="select_city">
+                            <label for="choose_city" class="select_desc">Выбор кухни</label>
+                            <div class="select_header">
+                                <div class="current_city">
+                                    
+                                    Кухня
+                                </div>
+                                <div class="select_icon"><span class="select_icon-arrow"></span></div>
+                            </div>
+                            <div class="select_body">
+                                <div class="select_item">Восточная</div>
+                                <div class="select_item">Русская кухня</div>
+                                <div class="select_item">Европейская</div>
+                                <div class="select_item">Грузинская</div>
+                                <div class="select_item">Азиатская</div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="route_pic">
+                        <img class="route_pic_img" src="./img/group.jpg.jpg">
+                    </div>
+                </div>
+                <button class="button_key" type="submit">Создать маршрут</button>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <ul class="footer_content_top">
+                    <li class='footer_content_link'>
+                        <a href="#"><img src="./img/Rectangle 586.svg" alt="no img"></a>
+                        <a href="#" class='footer_content_link_text'>Мы ВКонтакте</a>
+                    </li>
+                    <li>
+                        <a href="./index.html"><img src="./img/Rectangle 600.png" alt="no img"></a>
+                    </li>
+                    <li class='footer_content_link'>
+                        <a href="#"><img src="./img/image 39.svg" alt="no img"></a>
+                        <a href="#" class='footer_content_link_text'>
+                            Мы в Телеграме
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom"></div>
+            <div class="footer_menu">
+                <div class="container">
+                    <ul class="menu_list_footer">
+                        <li class="menu_item_footer"><a href="./index.html" class="menu_link_footer">На
+                                главную</a>
+                        </li>
+                        <li class="menu_item_footer"><a href="./ready-made_routes.html" class="menu_link_footer">Готовые
+                                маршруты</a>
+                        </li>
+                        <li class="menu_item_footer"><a href="#" class="menu_link_footer">Мои маршруты</a></li>
+                        <li class="menu_item_footer"><a href="#" class="menu_link_footer">Партнёры</a></li>
+                        <li class="menu_item_footer"><a href="#" class="menu_link_footer">Личный кабинет</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
